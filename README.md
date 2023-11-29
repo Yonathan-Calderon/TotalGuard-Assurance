@@ -15,7 +15,7 @@ Welcome to TotalGuard Assurance, a demonstration project showcasing my developme
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/totalguard-assurance.git
+   git clone https://github.com/Yonathan-Calderon/TotalGuard-Assurance.git
 
 2. Navigate to the project directory:
 cd totalguard-assurance
