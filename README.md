@@ -2,6 +2,8 @@
 
 Welcome to TotalGuard Assurance, a demonstration project showcasing my development skills, creativity, and understanding of modern technologies. This responsive website, built using Next.js, offers a glimpse into an innovative insurance solution.
 
+![Portfolio Image](https://github.com/Yonathan-Calderon/CalderonDev---/blob/main/public/screenTotalGuard.png)
+
 ## Features
 
 - **Cutting-edge Services:** Explore a set of imaginative services, including risk assessment precision, virtual claims processing, personalized policy crafting, and a 24/7 assistance hub.
