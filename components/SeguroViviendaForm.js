@@ -96,7 +96,7 @@ const SeguroViviendaForm = () => {
                                 <input type="number" id="viviendaNumber" name="viviendaNumber" className="mt-2 mb-1 ms-1" placeholder="Phone number" onChange={handleInputChange} />
                             </div>
                             {formErrors.viviendaEmail && <span className="error-text">{formErrors.viviendaEmail}</span>}
-                            <select id="viviendaType" name="viviendaType" className="mt-2 mb-1" onChange={handleInputChange}>
+                            <select data-testid="viviendaType" name="viviendaType" className="mt-2 mb-1" onChange={handleInputChange}>
                                 <option value="">Type of housing</option>
                                 <option value="Casa">House</option>
                                 <option value="Departamento">Apartment</option>

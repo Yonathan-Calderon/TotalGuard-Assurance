@@ -33,7 +33,7 @@ const CotizadorForm = () => {
                 >
                     Mobility
                 </button>
-                <div className="underline" style={getUnderlineStyle()}></div>
+                <div className="underline" style={getUnderlineStyle()} data-testid="underline"></div>
             </div>
             
             {selectedForm === 'vivienda' && <SeguroViviendaForm />}
@@ -41,4 +41,5 @@ const CotizadorForm = () => {
         </div>
     );
 }
+
 export default CotizadorForm;

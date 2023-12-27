@@ -10,11 +10,12 @@ const Footer = () => {
         <div className='container'>
           <div className='grid-4'>
             <div className='logo'>
-            <div className='logo'>
-            <Link href='/'>
-              <TitleLogo title='  TotalGuard Assurance' caption='∞' className='logomin' />
-            </Link>
-          </div>
+              <div className='logo'>
+                {/* Agrega data-testid al enlace que contiene "TotalGuard Assurance" */}
+                <Link href='/' data-testid='total-guard-assurance'>
+                  <TitleLogo title='  TotalGuard Assurance' caption='∞' className='logomin' />
+                </Link>
+              </div>
               <span>
                 Questions? Reach us <br /> Monday – Friday from 9 am to 6 pm
               </span>
@@ -29,11 +30,9 @@ const Footer = () => {
               <li>
                 <Link href='/'>About US</Link>
               </li>
-              
               <li>
                 <Link href='/'>Blog</Link>
               </li>
-  
               <li>
                 <Link href='/'>Contact</Link>
               </li>
