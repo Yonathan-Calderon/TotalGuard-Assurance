@@ -44,6 +44,11 @@ npm run build
 Start the production server:
 npm start
 
+## Test
+
+Run the tests:
+npm test
+
 ## Technologies
 
 1. Next.js: 13.3.0
